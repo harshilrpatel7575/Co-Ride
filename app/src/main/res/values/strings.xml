@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TransitMate</string>
+    <string name="hello_blank_fragment">Hello blank TransitMate fragment</string>
+</resources>

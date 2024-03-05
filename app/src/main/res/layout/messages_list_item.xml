@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:id="@+id/chatRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:id="@+id/view2"
+            app:cardCornerRadius="21dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginVertical="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="0">
+            <ImageView
+                android:layout_height="42dp"
+                android:layout_width="match_parent"
+                android:id="@+id/chatImgItem"
+                android:src="@drawable/profile_icon"
+                android:scaleType="centerCrop"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/chatNameItem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:text="Username"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tripCostText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            android:text="Confirm\nDriver?"
+            android:textColor="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toStartOf="@+id/confirmB"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <ImageButton
+            android:id="@+id/confirmItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:backgroundTint="#FFFFFF"
+            app:srcCompat="@drawable/confirm_icon"
+            app:tint="#4CAF50"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/declineItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:layout_weight="0"
+            android:backgroundTint="#FFFFFF"
+            android:tint="#C62828"
+            app:srcCompat="@drawable/decline_icon"
+            tools:ignore="TouchTargetSizeCheck,UseAppTint,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_width="414dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <RadioGroup
+            android:id="@+id/paymentOptions"
+            android:layout_width="287dp"
+            android:layout_height="286dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="240dp">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Google Pay" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apple Pay" />
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Credit Card" />
+
+            <RadioButton
+                android:id="@+id/radioButton4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Debit Card (ending in 3016)" />
+
+            <RadioButton
+                android:id="@+id/radioButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Interac" />
+
+            <RadioButton
+                android:id="@+id/radioButton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Paypal"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="180dp"
+                android:layout_height="73dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="637dp"
+                android:text="Confirm" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/newTripTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Choose Payment Method"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="124dp"
+            android:gravity="center|center_horizontal"
+            android:text="Trip Price"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/paymentButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="550dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="Confirm Payment and Go Home"
+
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="605dp"
+            android:text="Go Back" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tripCostText"
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="CAD 84.89"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
