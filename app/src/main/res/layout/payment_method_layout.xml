@@ -120,7 +120,7 @@
         android:layout_height="73dp"
         android:layout_marginTop="150dp"
         android:gravity="center"
-        android:text="CAD 84.89"
+        android:text="INR 2511"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

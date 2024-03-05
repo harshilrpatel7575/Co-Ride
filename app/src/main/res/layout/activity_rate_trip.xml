@@ -159,7 +159,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="CAD 5" />
+                android:text="INR 100" />
 
             <Button
                 android:id="@+id/cad10"
@@ -167,14 +167,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_weight="1"
-                android:text="CAD 10" />
+                android:text="INR 250" />
 
             <Button
                 android:id="@+id/cad15"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="CAD 15" />
+                android:text="INR 500" />
 
         </LinearLayout>
 
@@ -184,7 +184,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:ems="10"
-            android:hint="Or a Custom Amount (CAD)"
+            android:hint="Or a Custom Amount (INR)"
             android:inputType="number"
             android:minHeight="48dp"
             tools:ignore="SpeakableTextPresentCheck" />

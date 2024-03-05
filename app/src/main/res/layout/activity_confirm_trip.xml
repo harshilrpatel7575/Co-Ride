@@ -199,10 +199,10 @@
 
             <ImageView
                 android:id="@+id/imageView17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="28dp"
+                android:layout_height="match_parent"
                 android:layout_weight="0"
-                app:srcCompat="@drawable/money_icon" />
+                app:srcCompat="@drawable/img" />
 
             <TextView
                 android:id="@+id/textView29"

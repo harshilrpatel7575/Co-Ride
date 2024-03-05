@@ -14,16 +14,16 @@
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
         android:text="Start New Trip"
-        android:textSize="34sp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tripSubtitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="70dp"
         android:gravity="center_horizontal"
-        android:text="Do you need a hitch or are you driving?"
+        android:text="Do you need a Ride or are you driving?"
         android:textSize="20sp"
         android:textStyle="bold" />
 

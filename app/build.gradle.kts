@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.transitmate"
+    namespace = "com.vit.coride"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.transitmate"
+        applicationId = "com.vit.coride"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
