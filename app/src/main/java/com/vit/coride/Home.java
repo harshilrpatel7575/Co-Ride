@@ -28,16 +28,8 @@ public class Home extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         homeTitle = (TextView) view.findViewById(R.id.homeTitle);
-//        settingsButton = (ImageButton) view.findViewById(R.id.settingsButton);
+
         tripProgressButton = (Button) view.findViewById(R.id.currentTripButton);
-//        settingsButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getActivity(), Settings.class);
-//                startActivity(intent);
-//            }
-//        }
-//        );
 
         if (!tripProgress)
             tripProgressButton.setVisibility(View.INVISIBLE);

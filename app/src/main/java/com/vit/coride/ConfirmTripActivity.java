@@ -90,8 +90,7 @@ public class ConfirmTripActivity extends AppCompatActivity implements OnMapReady
 
     }
 
-    //CODE REFERRED FROM https://www.digitalocean.com/community/tutorials/android-google-map-drawing-route-two-points
-    // ALSO HELP WAS TAKEN FROM https://developers.google.com/maps/documentation/android-sdk/polygon-tutorial API DEVELOPMENT KIT
+
 
     public void onMapReady(GoogleMap googleMap) {
         gmap = googleMap;
